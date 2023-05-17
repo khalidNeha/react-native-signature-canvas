@@ -4979,9 +4979,8 @@ react-native-gradle-plugin@^0.71.13:
   version "0.71.13"
   resolved "https://registry.npmmirror.com/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.13.tgz#6f60ff24ac712554903dfc0ae98475cb280c57a6"
 
-react-native-signature-canvas@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npmmirror.com/react-native-signature-canvas/-/react-native-signature-canvas-4.5.0.tgz#374cd603d95eee80dbd0728b8ef9e77616ea4511"
+react-native-signature-canvas@../../:
+  version "4.5.1"
 
 react-native-webview@^11.26.1:
   version "11.26.1"

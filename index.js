@@ -17,7 +17,7 @@ import { WebView } from "react-native-webview";
 const styles = StyleSheet.create({
   webBg: {
     width: "100%",
-    backgroundColor: "transparent",
+    backgroundColor: "#132141",
     flex: 1,
   },
   loadingOverlayContainer: {
@@ -271,11 +271,11 @@ const SignatureView = forwardRef(
           onError={renderError}
           onLoadEnd={() => setLoading(false)}
         />
-        {loading && (
+        {/* {loading && (
           <View style={styles.loadingOverlayContainer}>
             <ActivityIndicator color={"transparent"} />
           </View>
-        )}
+        )} */}
       </View>
     );
   }
